@@ -111,3 +111,102 @@ Understanding networking allows security professionals to:
 
 Networking is not optional in cybersecurity — **it is the base layer of everything**.
 
+
+🌐 Networking Fundamentals for Cybersecurity & Ethical Hacking
+
+This document covers core networking concepts required for cybersecurity, ethical hacking, and IT fundamentals. The notes are structured for learning, revision, exams, interviews, and GitHub documentation.
+
+1️⃣ Client-Server vs Peer-to-Peer Architecture
+Client-Server Architecture
+
+One central server provides services
+
+Clients request resources
+
+Examples
+
+Web applications
+
+Email servers
+
+Databases
+
+Pros
+
+Centralized control
+
+Better security
+
+Easy management
+
+Cons
+
+Single point of failure
+
+Costly infrastructure
+
+Peer-to-Peer (P2P) Architecture
+
+All devices act as both client and server
+
+No central authority
+
+Examples
+
+File sharing (BitTorrent)
+
+LAN file sharing
+
+Pros
+
+No single failure point
+
+Cost-effective
+
+Cons
+
+Weak security
+
+Difficult management
+
+2️⃣ OSI Model (7 Layers)
+Layer	Name	Purpose
+7	Application	User interaction (HTTP, FTP)
+6	Presentation	Encryption, compression
+5	Session	Session management
+4	Transport	Reliable delivery (TCP/UDP)
+3	Network	IP addressing & routing
+2	Data Link	MAC addressing
+1	Physical	Cables & signals
+
+Mnemonic:
+👉 All People Seem To Need Data Processing
+
+3️⃣ Encapsulation & Decapsulation
+Encapsulation
+
+Data wrapped with headers as it moves down the OSI layers
+
+Application Data
+↓
+TCP/UDP Header
+↓
+IP Header
+↓
+Ethernet Frame
+
+Decapsulation
+
+Reverse process at receiver
+
+Headers removed layer by layer
+
+4️⃣ TCP/IP Model (4 Layers)
+TCP/IP Layer	OSI Mapping
+Application	OSI 7–5
+Transport	OSI 4
+Internet	OSI 3
+Network Access	OSI 2–1
+
+Used in real-world networking and hacking labs
+
